@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/nav_header"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="90dp">
+
+
+            <!-- // FIXME BAJU 1 -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/baju_1"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- //FIXME BAJU 2-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="230dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/baju_2"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--// FIXME JAKET 1-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/jaket_1"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--// FIXME JAKET 2-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="230dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/baju_1"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--// FIXME KERAH 1-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/kerah_1"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--// FIXME KERAH 2-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginLeft="230dp"
+                android:background="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:padding="30dp"
+                    android:background="@drawable/kerah_2"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <!--        <com.google.android.material.navigation.NavigationView-->
+        <!--            android:layout_width="300dp"-->
+        <!--            android:layout_height="800dp"-->
+
+        <!--        />-->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
